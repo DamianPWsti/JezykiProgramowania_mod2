@@ -14,7 +14,7 @@ int BinToHex()
         if(bit)
             out = (out<<1) + 1;
         else
-            out = (out<<0);
+            out = (out<<1);
     }
     return out;
 }
@@ -26,5 +26,6 @@ int main()
     int out = BinToHex();
     cout << "Wprowadzona liczba to: " << out << endl;
 
+    system("pause");
     return 0;
 }

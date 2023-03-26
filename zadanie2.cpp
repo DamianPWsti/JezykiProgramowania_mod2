@@ -39,5 +39,7 @@ int main()
     cout << "Jezyki Porgramowania " << "2DZI " << "Damian" << " " << "Potoczny" << endl;
     cout << "Modul 2 "<< "Tablice " << "Zadanie2"<< endl;
     tab();
+
+    system("pause");
     return 0;
 }
